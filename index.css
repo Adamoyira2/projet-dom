@@ -5,7 +5,7 @@
 
 
 
-.article .accessoire { 
+#article .accessoire { 
     color: black;
     display: grid;
     grid-template-columns: repeat(3, 1fr)
@@ -14,7 +14,7 @@
 }
 
 
-.article .carte .achat{
+#article .carte .achat{
     font-size: 13px;
     font-weight: 900;
     color: #f63e4e;
@@ -22,7 +22,7 @@
     border-radius: 1px solid #f63e4e;
 }
 
-.article .carte .box .achat:hover{
+#article .carte .box .achat:hover{
     cursor: pointer;
     background: black;
     color: white;
@@ -35,9 +35,6 @@
      
 }
 
-#btn-2{
-    cursor: pointer;
-}
 
 
 
